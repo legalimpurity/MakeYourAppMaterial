@@ -9,4 +9,10 @@
 
     <string name="up">Up</string>
 
+
+
+    <!-- Transition names, not to be localized-->
+    <string name="photo_transition">photo_transition</string>
+
+
 </resources>
