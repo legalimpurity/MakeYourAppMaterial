@@ -1,4 +1,5 @@
 <com.example.xyzreader.ui.DrawInsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/draw_insets_frame_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -70,7 +71,8 @@
                             android:textColor="#fff"
                             android:textStyle="bold"
                             android:textSize="@dimen/detail_title_text_size"
-                            android:lineSpacingMultiplier="0.9" />
+                            android:lineSpacingMultiplier="0.9"
+                            tools:text="Hi this is the book name"/>
 
                         <TextView
                             android:id="@+id/article_byline"
@@ -78,7 +80,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-light"
-                            android:textColor="#8fff" />
+                            android:textColor="#8fff"
+                            tools:text="Hi this is the date and author"/>
                     </LinearLayout>
 
                     <TextView
@@ -93,7 +96,8 @@
                         android:fontFamily="sans-serif"
                         android:textStyle="normal"
                         android:textSize="@dimen/detail_body_text_size"
-                        android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier" />
+                        android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
+                        tools:text="Hi this is the story"/>
 
                 </LinearLayout>
 
