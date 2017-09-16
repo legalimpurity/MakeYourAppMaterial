@@ -15,7 +15,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:elevation="16dp"
+        android:elevation="@dimen/app_bar_elevation"
         app:layout_scrollFlags="scroll|enterAlways"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
